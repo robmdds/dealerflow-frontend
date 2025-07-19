@@ -9,10 +9,14 @@
       }
     }
   ],
-  "routes": [
+ "routes": [
     {
       "src": "/api/(.*)",
       "dest": "https://api.dynamicdealerservices.com/api/$1"
+    },
+    {
+      "src": "/(.*\\..*)",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
