@@ -12,7 +12,7 @@
  "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://api.dynamicdealerservices.com/api/$1"
+      "dest": "https://api.postflowpro.com/api/$1"
     },
     {
       "src": "/(.*\\..*)",
@@ -24,11 +24,11 @@
     }
   ],
   "env": {
-    "VITE_API_BASE_URL": "https://api.dynamicdealerservices.com/api"
+    "VITE_API_BASE_URL": "https://api.postflowpro.com/api"
   },
   "build": {
     "env": {
-      "VITE_API_BASE_URL": "https://api.dynamicdealerservices.com/api"
+      "VITE_API_BASE_URL": "https://api.postflowpro.com/api"
     }
   }
 }
